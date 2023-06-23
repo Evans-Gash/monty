@@ -1,12 +1,16 @@
 #include "monty.h"
 
 /**
- * rotate_stack - Rotates the stack to move the bottom element
- * @head: Pointer to the head of the stack
- * @counter: Line number
- * Return: No return value
+
+rotate_stack_to_top - Rotates the stack to move the bottom element to the top.
+
+@head: Pointer to the head of the stack
+
+@counter: Line number
+
+Return: No return value
 */
-void rotate_stack(stack_t **head, attribute((unused)) unsigned int counter)
+void rotate_stack_to_top(stack_t **head,__attribute__((unused)) unsigned int counter)
 {
 stack_t *tmp = *head, *aux;
 
