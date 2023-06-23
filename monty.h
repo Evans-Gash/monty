@@ -1,4 +1,5 @@
 #ifndef MONTY_H
+#define _POSIX_C_SOURCE 200809L
 #define MONTY_H
 #include <stdio.h>
 #include <stdlib.h>
